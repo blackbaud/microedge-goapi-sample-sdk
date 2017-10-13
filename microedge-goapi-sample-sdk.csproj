@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <AssemblyName>microedge-goapi-sample-sdk</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>microedge-goapi-sample-sdk</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MicroEdge.GoApi.SDK" Version="1.0.1" />
+  </ItemGroup>
+</Project>
