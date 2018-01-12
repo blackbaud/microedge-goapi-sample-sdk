@@ -7,6 +7,7 @@
     <PackageId>microedge-goapi-sample-sdk</PackageId>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MicroEdge.GoApi.SDK" Version="1.0.1" />
+    <PackageReference Include="CommandLineParser" Version="2.2.1" />
+    <PackageReference Include="MicroEdge.GoApi.SDK" Version="2.0.2" />
   </ItemGroup>
 </Project>

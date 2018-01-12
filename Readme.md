@@ -7,4 +7,4 @@ This repo also contains files to make debugging with the VS Code text editor eas
 - Ensure you have the dotnet CLI installed. See this website for more information about .NET Core: https://www.microsoft.com/net/core#windowsvs2017
 - Update Program.cs with your authentication secret and key, and the ID of an organization that exists on your client site.
 - Run `dotnet restore` from a command line in the project directory to retrieve required dependencies from nuget.
-- Run `dotnet run` to execute the console app. The name of the organization will display in the command line.
+- Run `dotnet run -u <API-user-key-here> -k <API-secret-key-here> -i <GIFTS-Online-organization-id-here>` to execute the console app. The name of the organization will display in the command line.
